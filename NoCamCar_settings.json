@@ -1,0 +1,28 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode": "Car",
+  "ViewMode": "SpringArmChase",
+  "ClockSpeed": 0.1,
+  "Vehicles": {
+    "drone_1": {
+      "VehicleType": "PhysXCar",
+      "DefaultVehicleState": "Armed",
+      "EnableCollisionPassthrogh": false,
+      "EnableCollisions": true,
+      "AllowAPIAlways": true,
+      "RC": {
+        "RemoteControlID": 0,
+        "AllowAPIWhenDisconnected": false
+      },
+      "Sensors": {
+        "imu" : {
+          "SensorType": 2,
+          "Enabled": true
+        }
+      },
+      "X": 0, "Y": 0, "Z": 0,
+      "Pitch": 0, "Roll": 0, "Yaw": 0
+    }
+  }
+}
